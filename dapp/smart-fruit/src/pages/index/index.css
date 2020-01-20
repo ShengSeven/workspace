@@ -1,0 +1,92 @@
+.main{
+    background-color:#EFF2F8;
+    width:100%;
+    height:100%;
+}
+.main-div{
+    width:1200px;
+    margin:0px auto;
+}
+.head-div{
+    width:100%;
+    height: 56px;
+    background-color:#FFFFFF;
+    color:#2F3032;
+    font-size:16px;
+}
+.head-div .left-div{
+    float: left;
+    height: 56px;
+    line-height: 56px;
+    width:210px;
+    font-size:28px;
+    font-family:SourceHanSansSC-Bold,SourceHanSansSC;
+    font-weight:bold;
+}
+.head-div .left-div span{
+    color:#28C59A;
+}
+.head-div .middle-div {
+    width:725px;
+    height:24px;
+    line-height:24px;
+    padding-left:100px;
+    border-left:1px solid #D4E0F8;
+    border-right:1px solid #D4E0F8;
+    float: left;
+    margin-top:16px;
+}
+.head-div .right-div {
+    float:right;
+    width:66px;
+    height:56px;
+    line-height:56px;
+    padding-left:40px;
+}
+
+
+
+.info-div{
+    margin:28px 0px 40px;
+}
+.info-div .info-item{
+    width:320px;
+    height:120px;
+    background:rgba(255,255,255,1);
+    border-radius:24px;
+    margin-right:36px;
+    padding:22px 28px;
+    display: inline-block;
+    
+}
+.info-div .info-item:nth-child(3){
+    margin-right: 0px;
+}
+.info-div .info-item .info-val-div{
+    height:40px;
+    line-height: 40px;
+    font-size: 32px;
+    color:#333436;
+    font-family:DIN-Bold,DIN;
+    font-weight:bold;
+}
+.info-div .info-item .info-text-div{
+    font-size:16px;
+    font-family:SourceHanSansSC-Bold,SourceHanSansSC;
+    font-weight:bold;
+    color:#6A6C71;
+    height:44px;
+    line-height:44px;
+    margin-top:30px;
+
+}
+.info-div .info-item .info-text-div .info-icon{
+    width:44px;
+    height:44px;
+    float:right;
+    background-color: red;
+}
+
+.content-div .tab-div{
+
+}

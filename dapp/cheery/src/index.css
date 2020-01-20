@@ -1,0 +1,71 @@
+/* CSS Document */
+html, body, div, span, object, iframe,h1, h2, 
+h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, 
+em, img, ins,kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, 
+ol, ul, li,fieldset, form, label, legend,table, caption, tbody, 
+tfoot,thead,tr, th, td,article, aside, canvas, details, figcaption, 
+figure, footer, header, hgroup, menu, nav, section, summary,time, mark, 
+audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    /* background:transparent; */
+    outline-style:none;/*FF浣跨敤*/ 
+}
+*, *::before, *::after{
+    box-sizing: content-box;
+}
+body {
+    line-height:1;
+    font-size:14px;
+    font-family: microsoft yahei;
+}
+body,html,#root{
+    height:100%;
+}
+ 
+a{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+     
+}
+a:hover,a:focus{
+    text-decoration:none;
+    outline-style:none;/*FF浣跨敤*/ 
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+ 
+input, select {
+    vertical-align:middle;
+    outline:none;
+}
+
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #999;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+input::-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999;
+}

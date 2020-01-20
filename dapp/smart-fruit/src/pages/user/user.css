@@ -1,0 +1,243 @@
+.main-div{
+    width:1200px;
+    min-height:100%;
+    /* background-color:red; */
+    margin:0px auto;
+}
+.user-head{
+    width:100%;
+    height:40px;
+    background-color: aqua;
+}
+.user-div .info-div{
+    width: 100%;
+    height: 208px;
+    margin:20px 0px;
+}
+.user-div .info-div>div{
+    border:4px solid #eada17;
+    background-color:#c3c3c394;
+    float: left;
+}
+.user-div .info-div .user-photo{
+    width:200px;
+    height:200px;
+    border-radius: 50% 0px 0px 50%;
+    border-right:0px;
+}
+.user-photo img{
+    width:150px;
+    height:150px;
+    margin:12px auto;
+    display: block;
+    background-color: #ddd;
+    padding:10px;
+    border:2px solid #eee;
+    border-radius: 50%;
+}
+.user-div .info-div .user-income{
+    width:776px;
+    height:194px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-left:16px;
+    padding-top: 6px;
+}
+.user-income .income-item{
+    display: inline-block;
+    width:330px;
+    /* height:62px; */
+    height:150px;
+    background-color: #fff;
+    margin:10px;
+    padding:6px 10px;
+    border:1px solid #ddd;
+    border-radius: 7px;
+    position: relative;
+    top:0px;
+    left:0px;
+
+}
+.user-income .income-item .income-icon{
+    position: absolute;
+    top:15px;
+    right:15px;
+    width:32px;
+    height: 32px;
+    background: url(../../static/img/extension.png) no-repeat center center;
+}
+.user-income .income-item .user-base-icon{
+    background: url(../../static/img/user-base.png) no-repeat center center;
+}
+.user-income .income-item .member-icon{
+    background: url(../../static/img/member.png) no-repeat center center;
+}
+.user-income .income-item .extension-icon{
+    background: url(../../static/img/income.png) no-repeat center center;
+}
+.user-income .income-item .prize-icon{
+    background: url(../../static/img/prize.png) no-repeat center center;
+}
+.user-income .income-item>p{
+    height:30px;
+    line-height: 30px;
+}
+.user-div .info-div .buy-btn-div{
+    width:196px;
+    height:200px;
+    border-left: 0px;
+}
+.buy-btn-div .buy-btn{
+    background-color: red;
+    background-color: orange;
+    width:150px;
+    height:150px;
+    line-height: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top:25px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 8px 8px 12px #666;
+    text-shadow: 3px 5px 12px #999;
+}
+
+
+.user-div .child-div{
+    /* background-color: lightskyblue; */
+    width: 100%;
+    min-height: 200px;
+}
+.title-div{
+    width:500px;
+    margin:30px auto 20px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    left:0px;
+}
+.title-div:before{
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    height: 1px;
+    width: 190px;
+    margin-top: -1px;
+    background-color: #666;
+}
+.title-div:after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    height: 1px;
+    width: 190px;
+    margin-top: -1px;
+    background-color: #666;
+}
+
+.child-div .child-item:nth-child(4n){
+    /* margin-right:0px; */
+}
+.child-div .child-item{
+    width:270px;
+    color:#333;
+    display: inline-block;
+    margin: 9px;
+    padding:5px;
+    background-color: #fff;
+    border:1px solid #ddd;
+    border-radius: 7px;
+    font-size:13px;
+}
+.child-div .child-item:hover{
+    box-shadow: 0px 5px 20px #666;
+}
+.child-item .item-head{
+    /* background-color: #e20909; */
+    width:55px;
+    float:left;
+}
+.child-item .item-head img{
+    width:90%;
+    display: block;
+    height:auto;
+    margin:25px auto;
+    
+}
+.child-item .item-body{
+    min-width: 100px;
+    height:100px;
+    float:left;
+    margin-left:10px;
+    /* background-color: #4ff185; */
+}
+.child-item .item-body>div{
+    height:20px;
+    line-height:20px;
+    min-width:100px;
+    margin:0px auto;
+    margin-top:10px;
+    /* background-color: aquamarine; */
+}
+.user-div .invalid{
+    color:#999;
+}
+.user-div .valid{
+    color:#4ff185;
+}
+.user-div .active{
+    color:#eada17;
+}
+.user-div .senior{
+    color:#ffa500;
+}
+.user-div .frozen{
+    color:#56aae2;
+}
+
+
+
+.user-div .transation-div{
+    width: 100%;
+    min-height: 200px;
+    margin-bottom:50px;
+}
+
+.transation-div .transation-content{
+    width:900px;
+    margin:0px auto;
+    padding:20px 30px 50px;
+    border-radius: 10px;
+    /* background-color:red; */
+    border :1px solid #666;
+}
+.transation-div .transation-content span{
+    width:25%;
+    text-align: center;
+    display: inline-block;
+}
+.transation-div .transation-head{
+    height:40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    border-bottom: 3px solid #666;
+}
+.transation-div .transation-item{
+    height:40px;
+    line-height: 40px;
+    border-bottom: 1px solid #666;
+}
+.transation-div .transation-item:hover{
+    background-color: rgb(243, 233, 222);
+}
+.transation-none{
+    text-align:center !important
+}
+
+.income-button{
+    
+}

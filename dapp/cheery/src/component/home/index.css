@@ -1,0 +1,281 @@
+.main{
+    background-color:#EFF2F8;
+    width:100%;
+    min-height: 100%;
+}
+.main-div{
+    width:1200px;
+    margin:0px auto;
+}
+.head-div{
+    width:100%;
+    height: 56px;
+    background-color:#FFFFFF;
+    color:#2F3032;
+    font-size:16px;
+}
+.head-div .left-div{
+    float: left;
+    height: 56px;
+    line-height: 56px;
+    width:210px;
+    font-size:16px;
+    font-family:SourceHanSansSC-Bold,SourceHanSansSC;
+    font-weight:bold;
+}
+.head-div .left-div span{
+    color:#28C59A;
+    font-size:28px;
+}
+.head-div .middle-div {
+    width:725px;
+    height:24px;
+    line-height:24px;
+    padding-left:100px;
+    border-left:1px solid #D4E0F8;
+    border-right:1px solid #D4E0F8;
+    float: left;
+    margin-top:16px;
+    background: url(../../image/icon_top_address.png) no-repeat 60px center;
+}
+.head-div .right-div {
+    float:right;
+    width:66px;
+    height:56px;
+    line-height:56px;
+    padding-left:40px;
+    background: url(../../image/icon_top_quit.png) no-repeat left center;
+    cursor: pointer;
+}
+
+
+
+.info-div{
+    margin:28px 0px 44px;
+}
+.info-div .info-item{
+    width:320px;
+    height:120px;
+    background:rgba(255,255,255,1);
+    border-radius:24px;
+    margin-right:36px;
+    padding:22px 28px;
+    display: inline-block;
+    
+}
+.info-div .info-item:nth-child(3){
+    margin-right: 0px;
+}
+.info-div .info-item .info-val-div{
+    height:40px;
+    line-height: 40px;
+    font-size: 32px;
+    color:#333436;
+    font-family:DIN-Bold,DIN;
+    font-weight:bold;
+}
+.info-div .info-item .info-text-div{
+    font-size:16px;
+    font-family:SourceHanSansSC-Bold,SourceHanSansSC;
+    color:#6A6C71;
+    height:44px;
+    line-height:44px;
+    margin-top:30px;
+
+}
+.info-div .info-item .info-text-div .info-icon{
+    width:44px;
+    height:44px;
+    float:right;
+    background: url(../../image/icon_home_balance.png) no-repeat center center;
+}
+.info-div .info-item .info-text-div .balance-icon{
+    background-image: url(../../image/icon_home_balance.png);
+}
+.info-div .info-item .info-text-div .grade-icon{
+    background-image: url(../../image/icon_home_grade.png);
+}
+.info-div .info-item .info-text-div .recommend-icon{
+    background-image: url(../../image/icon_home_recommend.png);
+}
+
+.content-div .tab-div .tab-item{
+    width:98px;
+    height:44px;
+    line-height: 44px;
+    text-align: center;
+    color:#6A6C71;
+    border-radius:16px;
+    font-size:20px;
+    font-family:SourceHanSansSC-Medium,SourceHanSansSC;
+    font-weight:500;
+    display: inline-block;
+    margin-right:16px;
+    margin-bottom:24px;
+    cursor: pointer;
+}
+.content-div .tab-div .tab-item.active{
+    color:#28C59A;
+    background-color:#DAEDED;
+}
+.level-div{
+    width:100%;
+}
+.level-div .level-item{
+    width:376px;
+    height:194px;
+    background: url(../../image/panel.png) no-repeat center center;
+    margin-right:36px;
+    margin-bottom:32px;
+    display: inline-block;
+}
+.level-div .level-item:nth-child(3n){
+    margin-right:0px;
+}
+.level-div .level-item .level-title{
+    font-size:20px;
+    font-family:SourceHanSansSC-Medium,SourceHanSansSC;
+    font-weight:500;
+    width: 160px;
+    text-align: center;
+    height:40px;
+    line-height:45px;
+}
+.level-div .level-item .level-body{
+    padding:28px 16px;
+    color:#6A6C71;
+    font-size:16px;
+    font-family:DIN-Bold,DIN;
+    font-weight:bold;
+}
+.level-div .level-item .level-body span{
+    color: #A2A6AA;
+    font-family:SourceHanSansSC-Normal,SourceHanSansSC;
+    font-weight:400;
+}
+.level-div .level-item .level-body .price-div{
+    padding-left:21px;
+    background:url(../../image/icon_price.png) no-repeat left center;
+    height:44px;
+    line-height:44px;
+    margin-bottom:8px;
+}
+.level-div .level-item .level-body .time-div{
+    padding-left:21px;
+    background:url(../../image/icon_time.png) no-repeat left center;
+    height:44px;
+    line-height:44px;
+}
+.level-div .level-item .level-body .number-div{
+    height:44px;
+    line-height:44px;
+    margin-bottom:8px;
+}
+.level-div .level-item .level-body .address-div{
+    height:44px;
+    line-height:44px;
+}
+.level-div .level-item .level-body .time-div .buy-btn{
+    width:82px;
+    height:44px;
+    line-height:44px;
+    text-align: center;
+    background-color:#CFD8D6;
+    color:#6A6C71;
+    font-size:12px;
+    font-family:SourceHanSansSC-Medium,SourceHanSansSC;
+    font-weight:500;
+    border-radius:16px;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+.level-div .level-item.active .level-body .time-div .buy-btn{
+    background-color:#D4E0F8;
+    color:#1C46A7;
+    font-size:16px;
+}
+
+.log-div{
+    width:100%;
+}
+.log-div .log-tab{
+    width:212px;
+    height:64px;
+    line-height:64px;
+    text-align: center;
+    background:#fff;
+    border-radius:24px 24px 0px 0px;
+    font-size:16px;
+    font-family:SourceHanSansSC-Medium,SourceHanSansSC;
+    font-weight:bold;
+    color:#2F3032;
+    box-shadow: -5px 3px 12px #eee;
+    display: inline-block;
+    margin-right:25px;
+    position: relative;
+    z-index: 1;
+
+}
+.log-div .log-tab.active{
+    background:#28C299;
+    color:#fff;
+    box-shadow: none;
+}
+.log-div .log-content{
+    background-color: #fff;
+    padding:20px 44px 83px;
+    position: relative;
+    z-index: 2;
+    border-radius: 0px 0px 24px 24px;
+    box-shadow: -5px 7px 12px #eee;
+    margin-bottom:35px;
+}
+.log-div .log-content .log-head span{
+    color:#6A6C71;
+}
+.log-div .log-content span{
+    height:56px;
+    line-height:56px;
+    font-size:14px;
+    color:#2F3032;
+    padding:0px 24px;
+    text-align: left;
+    display: inline-block;
+}
+.log-div .log-content .address-span{
+    width:40%;
+}
+.log-div .log-content .price-span{
+    width:20%;
+}
+.log-div .log-content .time-span{
+    width:25%;
+}
+.log-div .log-content .log-item{
+    border:1px solid rgba(213,222,241,1);
+    border-top:0px solid #fff;
+}
+.log-div .log-content .log-item:nth-child(2){
+    border-radius: 8px 8px 0px 0px;
+    border-top:1px solid rgba(213,222,241,1);
+}
+.log-div .log-content .log-item:last-child{
+    border-radius: 0px 0px 8px 8px;
+    /* border-top:1px solid rgba(213,222,241,1); */
+}
+
+
+.pre-div{
+    width:100%;
+    height:200px;
+    background-color: blue;
+}
+
+.eli{
+    overflow:hidden; 
+    text-overflow:ellipsis; 
+    white-space:nowrap; 
+    display: inline-flex;
+    max-width: 242px;
+}

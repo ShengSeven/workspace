@@ -1,0 +1,142 @@
+.buy-main-div{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: -1;
+    transition:z-index 0.5s;
+}
+.buy-main-div.active{
+    z-index: 20;
+}
+.buy-main-div .dark{
+    opacity: 0;
+    transition:opacity 0.5s;
+}
+.buy-main-div.active .dark{
+    opacity: 0.9;
+}
+
+.buy-main-div .buy-content{
+    width:400px;
+    height:300px;
+    background-color:#fff;
+    position: absolute;
+    top:-50%;
+    left:50%;
+    z-index: 11;
+    margin-top:-150px;
+    margin-left:-250px;
+
+    transition:top 0.8s ;
+}
+.buy-main-div.active .buy-content{
+    top:50%;
+}
+.buy-panel{
+    width: 320px;
+    height:260px;
+    /* background: blue; */
+    padding:10px 40px;
+    position: absolute;
+    top:50%;
+    left:0px;
+    margin-top:-150px;
+    z-index: 11;
+}
+.buy-panel .buy-title{
+    text-align: center;
+    font-size:24px;
+    margin-bottom:30px;
+    color:#333;
+}
+.buy-panel .buy-input{
+    width: 300px;
+    border:0px solid #fff;
+    border-bottom:1px solid #333;   
+    padding: 0px 10px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom:20px;
+}
+.buy-panel .buy-btn{
+    background-color:#eada17;
+    height:40px;
+    line-height:40px;
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom:10px;
+    cursor: pointer;
+}
+
+.buy-div{
+    /* background-color: burlywood; */
+    position: relative;
+    top:0px;
+    left:0px;
+    border:1px solid #999;
+    padding:10px 5px 5px;
+    margin-bottom: 20px;
+    
+}
+.buy-div .buy-text{
+    position: absolute;
+    top:-13px;
+    left:15px;
+    color: #333;
+    background-color: #fff;
+    font-size: 13px;
+    height: 15px;
+    line-height: 15px;
+    padding:5px;
+
+}
+.buy-div .buy-item{
+    /* background-color: cadetblue; */
+    display: inline-block;
+    border:1px solid #8a8787;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.buy-div .buy-item.active,.buy-div .buy-item:hover{
+    /* background-color: #eada17; */
+    border:1px solid #ffa500;
+}
+
+.buy-div .pay-item{
+    /* background-color: cadetblue; */
+    display: inline-block;
+    border:1px solid #8a8787;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.buy-div .pay-item.active,.buy-div .pay-item:hover{
+    /* background-color: #ffa500; */
+    border:1px solid #ffa500;
+}
+.buy-div .buy-icon{
+    display: inline-block;
+    padding-left: 22px;
+}
+.buy-div .buy-inputNum {
+    width: 98%;
+    margin-top: 10px;
+    height: 25px;
+}
+.balance-icon{
+    background: url(../../static/img/balance.png) no-repeat center left;
+}
+.page-icon{
+    background: url(../../static/img/page.png) no-repeat center left;
+}
+
+
